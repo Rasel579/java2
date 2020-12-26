@@ -3,7 +3,10 @@ package lesson1;
 public class Main {
 
     public static void main(String[] args) {
-       Human bob = new Human("bob", 1, 12);
+        int e = new int[4][8].length;
+        System.out.println(e);
+
+        Human bob = new Human("bob", 1, 12);
        Cat harfield = new Cat("harfield", 2, 15);
        Robot boston = new Robot("boston", 4, 16);
        Participants[] participants = {bob, harfield, boston};
@@ -26,4 +29,7 @@ public class Main {
         }
 
     }
+    public void  doS(int arr, int arr1 ){
+        if(arr1 >= arr){}
+    };
 }
